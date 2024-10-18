@@ -11,6 +11,11 @@ import BounceLoader from "react-spinners/BounceLoader";
 
 // import { Analytics } from '@vercel/analytics/react';  // Se moverá dentro del useEffect para el consentimiento
 
+
+
+// golderos
+
+
 import './App.css';
 
 const Productos = lazy(() => import('./Components/Productos'));
