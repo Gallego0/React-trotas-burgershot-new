@@ -9,8 +9,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import BounceLoader from "react-spinners/BounceLoader";
 
-// import { Analytics } from '@vercel/analytics/react';  // Se moverá dentro del useEffect para el consentimiento
-
+import { Analytics } from '@vercel/analytics/react';  
 
 
 // golderos
@@ -63,7 +62,7 @@ function App() {
           <Mapa />
           <ContactUs />
           <Footer />
-          {/* Las analytics se cargan condicionalmente si el consentimiento ha sido dado */}
+          <Analytics/>
         </>
       )}
     </div>
