@@ -6,6 +6,8 @@ import insta from '../images/instaimg.png';
 
 function Footer() {
 
+
+    
     return (
         <div className="footer">
             <div className="sb__footer section__padding">
