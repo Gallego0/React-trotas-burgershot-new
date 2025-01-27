@@ -1,0 +1,121 @@
+/* Estilo para el título principal */
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  /* Estilo para los subtítulos */
+  .subtitulos {
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #c1ff72;
+    display: inline-block;
+    padding-bottom: 4px;
+  }
+  
+  /* Estilo para el texto */
+  .texto {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  /* Estilo del botón para volver */
+.go-back-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c1ff72;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  /* Efecto hover */
+  .go-back-btn:hover {
+    background-color: #a4db61;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Ajustes responsive */
+  @media (max-width: 768px) {
+    .go-back-btn {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .go-back-btn {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }
+  
+  /* Ajustes responsive */
+  @media (max-width: 1200px) {
+    .titulo {
+      font-size: 22px;
+    }
+    .subtitulos {
+      font-size: 16px;
+    }
+    .texto {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .titulo {
+      font-size: 20px;
+    }
+    .subtitulos {
+      font-size: 15px;
+    }
+    .texto {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .titulo {
+      font-size: 18px;
+    }
+    .subtitulos {
+      font-size: 14px;
+    }
+    .texto {
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .titulo {
+      font-size: 16px;
+    }
+    .subtitulos {
+      font-size: 12px;
+      border-bottom: 1px solid #c1ff72;
+    }
+    .texto {
+      font-size: 12px;
+    }
+  }
