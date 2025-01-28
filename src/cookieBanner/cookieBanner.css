@@ -1,0 +1,100 @@
+/* General styles for body and buttons */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Bebas Neue', 'Lato', sans-serif;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+/* Cookie banner styles */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222; /* Dark background */
+    color: #dedede; /* Light gray text */
+    text-align: center;
+    padding: 20px 15px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth slide and fade */
+}
+
+.cookie-banner.hide {
+    transform: translateY(100%); /* Slide down */
+    opacity: 0; /* Fade out */
+}
+
+/* Banner content styles */
+.cookie-banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cookie-title {
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 10px;
+    color: #f4f4f4;
+}
+
+.cookie-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+/* Buttons container */
+.cookie-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Buttons styles */
+.cookie-btn {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    padding: 10px 22px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #dedede;
+    background-color: #222222; /* Button matches banner background initially */
+    border: 2px solid transparent;
+    transition: all 0.3s ease; /* Smooth hover and transition */
+    cursor: pointer;
+}
+
+.cookie-btn:hover {
+    background-color: #bf2222; /* Hover: Red background */
+    color: #ffffff; /* Hover: White text */
+    box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336); /* Glow effect */
+    border: 2px solid #bf2222; /* Border becomes red */
+}
+
+/* Buttons specific styles */
+.cookie-btn.aceptar:hover {
+    background-color: #28a745; /* Green hover for accept */
+    box-shadow: 5px 10px 30px rgba(40, 167, 69, 0.4);
+    border: 2px solid #28a745;
+}
+
+.cookie-btn.rechazar:hover {
+    background-color: #dc3545; /* Red hover for reject */
+    box-shadow: 5px 10px 30px rgba(220, 53, 69, 0.4);
+    border: 2px solid #dc3545;
+}

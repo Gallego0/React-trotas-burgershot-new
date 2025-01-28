@@ -8,6 +8,7 @@ import ContactUs from './Components/ContactUs';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import BounceLoader from "react-spinners/BounceLoader";
+import CookieBanner from './cookieBanner/cookieBanner';
 
 import { Analytics } from '@vercel/analytics/react';  
 
@@ -62,6 +63,7 @@ function App() {
           <Mapa />
           <ContactUs />
           <Footer />
+          <CookieBanner />
           <Analytics/>
         </>
       )}
